@@ -34,7 +34,7 @@ function dividir(a, b) {
 /* FUNCION HACER PROMEDIO DE TRES NUMEROS  */
 function promedio(a, b, c) {
   const totalPromedio = (a + b + c) / 3;
-  return totalPromedio;
+  return Number(totalPromedio).toFixed(2);
 }
 
 
