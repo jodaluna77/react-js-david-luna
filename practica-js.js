@@ -38,7 +38,6 @@ function promedio(a, b, c) {
 }
 
 
-
 /* LLAMADA A LA FUNCIONES IMPLEMENTADAS */
 const resultadoProducto = calcularTotal(50000, 3);
 console.log("resultado de Multiplicar 50000 por 3: ", resultadoProducto); 
@@ -57,3 +56,28 @@ console.log("Resultado de la DIVISION: 144 / 12 = ", resultadoDivision);
 
 const resultadoPromedio = promedio(30, 20, 60);
 console.log("Resultado del PROMEDIO: (30 + 20 + 60) / 3 = ", resultadoPromedio);  
+
+
+
+/* FUNCIONES FLECHA */
+
+const aplicarIVA = (precio) => precio * 1.19;
+
+const cuadrado = (numero) => numero * numero;
+
+const esMayorDeEdad = (edad) => edad >= 18 ? "Es mayor de edad" : "Es menor de edad";
+
+const nombreCompleto = (nombre, apellido) => `${nombre} ${apellido}`;
+
+
+
+console.log("/******************************/");
+console.log("/*****  FUNCIONES FLECHA ******/");
+console.log("/******************************/");
+
+console.log("IVA Aplicado a 100:", aplicarIVA(100));
+console.log("Cuadrado de 5:", cuadrado(5));
+console.log("Verificar si 20 es mayor de edad:", esMayorDeEdad(20));
+console.log("Verificar si 15 es mayor de edad:", esMayorDeEdad(15));
+console.log("Nombre completo de Juan Pérez:", nombreCompleto("Juan", "Pérez"));
+
