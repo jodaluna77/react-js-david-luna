@@ -31,6 +31,12 @@ function dividir(a, b) {
   return totalDivision;
 }
 
+/* FUNCION HACER PROMEDIO DE TRES NUMEROS  */
+function promedio(a, b, c) {
+  const totalPromedio = (a + b + c) / 3;
+  return totalPromedio;
+}
+
 
 
 /* LLAMADA A LA FUNCIONES IMPLEMENTADAS */
@@ -48,3 +54,6 @@ console.log("Resultado de la MULTIPLICACION: 11 * 5 = ", resultadoMultiplicacion
 
 const resultadoDivision = dividir(144, 12);
 console.log("Resultado de la DIVISION: 144 / 12 = ", resultadoDivision);  
+
+const resultadoPromedio = promedio(30, 20, 60);
+console.log("Resultado del PROMEDIO: (30 + 20 + 60) / 3 = ", resultadoPromedio);  
