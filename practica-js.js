@@ -18,7 +18,11 @@ function restar(a, b) {
   return totalResta;
 }
 
-
+/* FUNCION QUE MULTIPLICA DOS NUMEROS */
+function multiplicar(a, b) {
+  const totalMultiplicacion = a * b;
+  return totalMultiplicacion;
+}
 
 /* LLAMADA A LA FUNCIONES IMPLEMENTADAS */
 const resultadoProducto = calcularTotal(50000, 3);
@@ -29,3 +33,6 @@ console.log("Resultado de la SUMA: 10 + 5 = ", resultadoSuma);
 
 const resultadoResta = restar(25, 15);
 console.log("Resultado de la RESTA: 25 - 15 = ", resultadoResta);
+
+const resultadoMultiplicacion = multiplicar(11, 5);
+console.log("Resultado de la MULTIPLICACION: 11 * 5 = ", resultadoMultiplicacion);
