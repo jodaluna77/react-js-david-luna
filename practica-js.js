@@ -1,5 +1,11 @@
 console.log("JavaScript listo para practicar");
 
+
+console.log("/***********************************/");
+console.log("/*****  FUNCIONES MATEMATICAS ******/");
+console.log("/***********************************/");
+
+
 /* FUNCION QUE CALCULA EL TOTAL DE UNA COMPRA */
 function calcularTotal(precio, cantidad) {
   const totalProducto = precio * cantidad;
@@ -79,5 +85,6 @@ console.log("IVA Aplicado a 100:", aplicarIVA(100));
 console.log("Cuadrado de 5:", cuadrado(5));
 console.log("Verificar si 20 es mayor de edad:", esMayorDeEdad(20));
 console.log("Verificar si 15 es mayor de edad:", esMayorDeEdad(15));
-console.log("Nombre completo de Juan Pérez:", nombreCompleto("Juan", "Pérez"));
+console.log("Nombre completo de Jose David Luna Castillo:", nombreCompleto("Jose David", "Luna Castillo"));
 
+/* Voy en la Guia en el PUNTO 7. Reto 3: arreglos y objetos 
